@@ -73,7 +73,7 @@ public class ProxyServer {
         } catch (InterruptedException e) {
             System.err.println("Thread interrupted: " + e.getMessage());
         } finally {
-            closeSocket(remoteSocket[0]); // Access the first element of the array
+            closeSocket(remoteSocket[0]); // Access the first element of the array 
             closeSocket(clientSocket);
         }
     }
